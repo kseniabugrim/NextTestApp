@@ -1,0 +1,42 @@
+.Sidebar {
+  display: flex;
+  font-size: 14px;
+  flex-direction: column;
+  width: 35%;
+  max-width: 450px;
+  padding: 20px 10px;
+  font-size: 14px;
+}
+.topbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  margin: 10px 0;
+}
+.erase {
+  font-weight: bold;
+  color: rgb(54, 209, 209);
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.checkboxField {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 5px 0;
+}
+.inputDays {
+  border: none;
+  background: none;
+  border-bottom: 1px solid #949494;
+  text-align: center;
+  width: 2em;
+  margin: 0 5px;
+  &:focus {
+    outline:none;
+  }
+}

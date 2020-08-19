@@ -1,0 +1,26 @@
+.SidebarSection {
+  margin: 20px 0;
+}
+.title {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.arrow {
+  height: 10px;
+  transform-origin: center;
+  transition: transform 0.3s;
+  &[active] {
+    transform: rotate(90deg);
+  }
+}
+.titleText {
+  margin-left: 5px;
+}
+.body {
+  display: none;
+  padding: 5px 15px;
+  &[active] {
+    display: block;
+  }
+}
